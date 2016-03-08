@@ -97,6 +97,17 @@ a {
     text-decoration: none;
 }
 
+footer {
+    height: 60px;
+    background: #BD081C;
+}
+
+footer p {
+	text-align: center;
+	color: #000000;
+	padding-top: 15px;
+}
+
 #featured img {
 	max-width: 300px;
 }
