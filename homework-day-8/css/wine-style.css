@@ -1,0 +1,153 @@
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    color: #000;
+    /*background-color: #ff00ff;*/
+    padding: 10px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    float: left
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav a {
+    margin-left: 15px;
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #777;
+}
+
+#home {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine-bg.jpg') no-repeat center;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#home h2 {
+    font-size: 4em;
+}
+
+#home div {
+    margin-top: 100px;
+}
+
+#home q {
+    font-style: italic;
+}
+
+#about div {
+    width: 45%;
+    float: left;
+}
+
+#about div:first-child {
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 150px;
+}
+
+#about div:first-child p:first-child{
+    font-weight: bold;
+    color: #999;
+}
+
+#about div:first-child *{
+    margin-bottom: 10px;
+}
+
+#about div:first-child h3{
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about div:last-child {
+    text-align: center;
+}
+#about div:last-child img {
+    width: 50%;
+}
+
+#why-us {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine13.jpg') no-repeat center;
+}
+
+#why-us h3 {
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+#why-us div {
+    margin-top: 50px;
+    padding: 0px 150px;
+}
+
+#products div {
+    max-width: 30%;
+    padding: 0px 20px;
+    float: left;
+}
+
+#products img {
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#products h4 {
+    font-style: italic;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#products p {
+    color: #999;
+    text-align: center; 
+    padding: 0px 80px;
+    font-size: 12px;
+}
+
+#products button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #63A35C;
+    color: white;
+    border: 2px solid;
+    border-radius: 0px;
+    padding: 7px;
+}
+
+
+
+
+
+
+
