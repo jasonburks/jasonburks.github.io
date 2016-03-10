@@ -1,0 +1,152 @@
+/*****                *****/
+/*****  Base Rules    *****/
+/*****                *****/
+
+* { 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+}
+
+html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 ,h3 ,h4 {
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #03C;
+}
+
+.clear-fix:before,
+.clear-fix:after {
+    content: "";
+    display: table;
+} 
+
+.clear-fix:after {
+    clear: both;
+}
+
+/*****                *****/
+/*****  Layout Rules  *****/
+/*****                *****/
+
+.l-nav > * { 
+    display: inline-block;
+}
+
+#hero {
+    background: url('../img/sub_header_home.jpg') no-repeat center;
+    max-width: 100%;
+    min-height: 560px;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    padding-top: 220px;
+
+}
+
+header h2 {
+    font-size: 3.5em;
+}
+
+header div {
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav div {
+    text-align: center;
+    min-width: 24%;
+    margin: 0 auto;
+}
+
+nav > div > img {
+    margin: 10px auto 10px auto;
+    display: block;
+}
+
+nav > div > a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+nav > div > p {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/*****                *****/
+/*****  Media Queries *****/
+/*****                *****/
+
+/* alternate state for layout on small screens */
+@media screen and (max-width: 767px) {
+    .l-nav > * {
+    display: block;
+    }
+
+    nav > div > img {
+    margin: 30px auto 10px auto;
+    }
+}
+
+/* alternate state for layout on medium screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .l-nav > * {
+    display: inline-block;
+    }
+
+    nav div {
+    min-width: 49%;
+    }
+
+    nav > div > img {
+    margin: 30px auto 10px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
