@@ -1,0 +1,19 @@
+li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.primary-nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: darkseagreen;
+}
+
+.primary-nav ul {
+
+}
+
+.l-header {
+	background-color: red;
+}
+

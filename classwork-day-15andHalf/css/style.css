@@ -1,0 +1,14 @@
+
+.headerBg {
+	background-color: bisque;
+}
+
+
+.myLogo {
+	width: 200px;
+}
+
+#carousel-example-generic {
+	max-height: 670px;
+	overflow: hidden;
+}

@@ -1,0 +1,161 @@
+/*--- Styles for placeholder images, can delete when live
+----------------------------------------------------------*/
+img { 
+  width: 100%;
+  height: auto;
+}
+
+/*img { border: solid 1px #BBB; }
+*/
+body { padding: 1em; max-width: 1025px; margin: auto; }
+
+
+.background {
+  background: 
+    url("../img/green_suburb.jpg")
+    repeat;
+  background-size: 100% auto;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+
+
+/*--- Styles for troubleshooting, can delete when live
+----------------------------------------------------------*/
+
+.border-red {
+  border: 1px solid red;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+/*--- Layout styles, bein with l-
+----------------------------------------------------------*/
+
+.l-header {
+  margin-bottom: 1em;
+}
+
+.l-footer {
+  margin-top: 1em;
+}
+
+.l-sub-module-top {
+  padding: 1em;
+}
+
+.l-sub-module-bottom {
+  margin-top: 1em;
+}
+
+/*--- Module styles, bein with m-
+----------------------------------------------------------*/
+
+.m-searchBox {
+  padding-left: 0;
+}
+
+.m-video {
+  margin-top: 2em;
+  padding-left: 0;
+}
+
+.m-video span {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  background: url("../img/play.png") no-repeat;
+  background-position: 50% 30%;
+  background-size: 100%;
+}
+/*@media screen and (max-width: 480px) {
+  .m-video span {
+    background-size: 400%;
+  }
+}*/
+
+.secondary-content {
+  margin-top: 1em;
+}
+
+.m-tall-widget {
+  min-height: 154px;
+}
+
+/*--- Featured Image Styles
+----------------------------------------------------------*/
+
+/*--- Desktop Style to stretch the image to sidebar two rows ---*/
+
+@media only screen and (min-width: 992px) {
+  #featuredImg1,
+  #featuredImg2,
+  #featuredImg3 {
+    min-height: 412px;
+    padding: 1em;
+  }
+}
+
+/*--- Tablet Style to pop the image out of the row and featured style and give it it's own row ---*/
+@media only screen and (max-width: 991px) {
+  #featuredImg1,
+  #featuredImg2,
+  #featuredImg3 {
+    max-height: 250px;
+    margin-bottom: 1em;
+    padding: 1em 3em;
+  }
+}  
+
+/*--- Video Modal module
+----------------------------------------------------------*/
+ .modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+.modal-content iframe {
+    border:none;
+    padding:0;
+    margin:0;
+}
+.close {
+    font-size: 80px;
+    margin:-20px 0 0 0;
+}
+/***** MEDIA QUERIES *****/
+ @media only screen and (max-width: 641px) {
+    /***** MODAL PROPERTIES *****/
+    .modal-body {
+        height:100px;
+        padding:0;
+        margin: 0;
+    }
+    .modal-content {
+        padding:0;
+        margin: 0;
+    }
+    .modal-dialog {
+        position: relative;
+        width: auto;
+        margin: 15px;
+    }
+    .close {
+        margin:-12px 0 0 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /***** MODAL PROPERTIES *****/
+    .close {
+        font-size: 80px;
+        margin:30px -43px -20px 100px;
+    }
+}

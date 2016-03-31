@@ -1,0 +1,81 @@
+/*--- Styles for placeholder images, can delete when live
+----------------------------------------------------------*/
+img { 
+  width: 100%;
+  height: auto;
+}
+
+/*img { border: solid 1px #BBB; }
+*/
+body { padding: 1em; max-width: 1025px; margin: auto; }
+
+/*--- Styles for troubleshooting, can delete when live
+----------------------------------------------------------*/
+
+.border-red {
+  border: 1px solid red;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+/*--- Layout styles, bein with l-
+----------------------------------------------------------*/
+
+.l-header {
+  margin-bottom: 1em;
+}
+
+.l-footer {
+  margin-top: 1em;
+}
+
+.l-sub-module-top {
+  padding: 1em;
+}
+
+.l-sub-module-bottom {
+  margin-top: 1em;
+}
+
+/*--- Module styles, bein with m-
+----------------------------------------------------------*/
+
+.m-searchBox {
+  padding-left: 0;
+}
+
+.m-callBtn {
+  margin-top: 2em;
+  padding-left: 0;
+}
+
+.secondary-content {
+  margin-top: 1em;
+}
+
+.m-tall-widget {
+  min-height: 154px;
+}
+
+/*--- Featured Image Styles
+----------------------------------------------------------*/
+
+/*--- Desktop Style to stretch the image to sidebar two rows ---*/
+
+@media only screen and (min-width: 992px) {
+  #featuredImg {
+    min-height: 412px;
+    padding: 1em;
+  }
+}
+
+/*--- Tablet Style to pop the image out of the row and featured style and give it it's own row ---*/
+@media only screen and (max-width: 991px) {
+  #featuredImg {
+    max-height: 250px;
+    margin-bottom: 1em;
+    padding: 1em 3em;
+  }
+}  

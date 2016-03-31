@@ -1,0 +1,71 @@
+body {
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+header p {
+    font-size: 14px;
+}
+
+section {
+	background-color: #f1f1f1;
+}
+
+section div p {
+	font-size: 14px;
+}	
+
+/*h2 {
+	font-size: 14px;
+}*/
+
+.jumbotron {
+    min-height: 300px;
+    padding-top: 100px;
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
+.m-hero-1 {
+    background-color: #2BCDC0;  
+}
+
+.m-hero-2 {
+    background-color: #000;  
+}
+
+.m-title-row {
+  background-color: #33a8dd;
+}
+
+.m-title-block {
+  padding: 30px 100px 30px 100px;
+}
+
+.m-title-block > div {
+  display: inline-block;
+  padding: 10px 40px 0 40px;
+  height: 30px;
+  width: 65%;
+}
+
+#title-section > div:first-child {
+  padding-left: 100px;
+}
+
+#title-section > div:last-child {
+  padding-right: 100px;
+}
+
+.m-blue-block {
+  background-color: blue;
+}
+
+.m-orange-block {
+  background-color: orange;
+}
+
+.m-teal-block {
+  background-color: #2BCDC0;
+}
