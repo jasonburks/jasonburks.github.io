@@ -5854,7 +5854,7 @@ a:active {
   background-image: url(../img/hero/Beet-Header-BW.jpg);
   background-repeat: no-repeat;
   background-origin: center;
-  background-size: 100% auto;
+  background-size: cover;
   max-width: 100%;
   padding-top: 50.25%; }
   .hero-content.animate {
@@ -5885,7 +5885,7 @@ a:active {
   background-image: url(../img/hero/Video-Still-Man.jpg);
   background-repeat: no-repeat;
   background-origin: center;
-  background-size: 100% auto;
+  background-size: cover;
   height: auto; }
 
 .hero-video h1 {
@@ -5970,7 +5970,7 @@ a:active {
   background-image: url(../img/gallery/Beet-Lifestyle.jpg);
   background-repeat: no-repeat;
   background-origin: center;
-  background-size: 100% auto;
+  background-size: cover;
   height: auto;
   padding-top: 39%; }
 
@@ -6000,7 +6000,7 @@ a:active {
   background-image: url(../img/hero/Beet-Garden.jpg);
   background-repeat: no-repeat;
   background-origin: center;
-  background-size: 100% auto;
+  background-size: cover;
   height: auto; }
 
 .tint {
